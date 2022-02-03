@@ -1,0 +1,7 @@
+---
+channel: stable
+addons:
+  portainer:
+    repository: hassio-addons/addon-portainer
+    target: portainer
+    image: ghcr.io/hassio-addons/portainer/{arch}s
