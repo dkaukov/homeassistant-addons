@@ -1,12 +1,12 @@
 {
   "name": "Portainer",
-  "version": "2.11.1",
+  "version": "2.11.2",
   "slug": "portainer",
   "description": "Manage your Docker environment with ease",
   "url": "https://github.com/dkaukov/addon-portainer",
   "advanced": true,
-  "ingress": false,
-  "ingress_stream": false,
+  "ingress": true,
+  "ingress_stream": true,
   "startup": "services",
   "panel_icon": "mdi:docker",
   "arch": [
