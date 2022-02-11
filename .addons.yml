@@ -2,6 +2,6 @@
 channel: stable
 addons:
   portainer:
-    repository: hassio-addons/addon-portainer
+    repository: dkaukov/addon-portainer
     target: portainer
     image: dkaukov/hassio-addons-portainer-{arch}
