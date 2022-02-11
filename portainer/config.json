@@ -1,6 +1,6 @@
 {
   "name": "Portainer",
-  "version": "2.11.1",
+  "version": "2.11.2",
   "slug": "portainer",
   "description": "Manage your Docker environment with ease",
   "url": "https://github.com/dkaukov/addon-portainer",
@@ -18,11 +18,11 @@
   "init": false,
   "ports": {
     "8000/tcp": null,
-    "9443/tcp": 9443
+    "8099/tcp": 9443
   },
   "ports_description": {
     "8000/tcp": "Edge Agent Api (Enable when managing remote edge agents)",
-    "9443/tcp": "Main port"
+    "8099/tcp": "Main port"
   },
   "hassio_api": true,
   "docker_api": true,
